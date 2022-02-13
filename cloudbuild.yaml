@@ -10,4 +10,4 @@ steps:
     entrypoint: gcloud
     args: ['run', 'deploy', 'nestjs-connector', '--image', 'gcr.io/connector-registry-poc/nestjs-connector', '--region', 'us-west1', '--platform', 'managed', '--port', '3000']
 images:
-  - gcr.io/486564491519/nestjs-connector
+  - gcr.io/connector-registry-poc/nestjs-connector
